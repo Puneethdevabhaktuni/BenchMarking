@@ -1,0 +1,54 @@
+<link rel="import" href="bower_components/note-app-elements/na-elements.html">
+<link rel="import" href="bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+<link rel="import" href="bower_components/polymerfire/polymerfire.html">
+<link rel="import" href="bower_components/paper-input/paper-input.html">
+
+<link rel="import" href="bower_components/login-fire/login-fire.html">
+<dom-module id="login-page">
+  <template>
+      <style>
+      :host {
+        display: grid;
+        height: 800px;
+        background-color: skyblue;
+          background-size: cover;
+        color: var(--container-text, blue);
+        background-image: var(--container-background, "default.png");
+        --container-background: url( 'images/doc.jpg');
+      }
+
+
+    </style>
+      <firebase-app
+          name="miniHorizontalWideDemo"
+          api-key="AIzaSyBCy1qpz-cLwslFYiZEGog16Hs7_Yfa678"
+          auth-domain="benchmarking-5f870.firebaseapp.com"
+          database-url="https://benchmarking-5f870.firebaseio.com">
+    </firebase-app>
+        <img src="images/logo.png" style="padding-top: 5cm;padding-left:13.5cm " />
+    <login-fire id="login" mini horizontal email-password facebook anonymous google app-name="miniHorizontalWideDemo" user="{{user}}" signed-in="{{signedIn}}"></login-fire>
+      
+      <firebase-auth
+        id="auth"
+        app-name="notes"
+        provider="google"
+        signed-in="{{signedIn}}"
+        user="{{user}}">
+    </firebase-auth>
+      <h1>Welcome {{user.email}}</h1>
+      <a on-tap="_signOut">Sign Out</a>
+    </template>
+  <script>
+    Polymer({
+      is: 'login-page',
+      behaviors: [Polymer.NoteAppBehavior],
+        signIn: function() {
+      this.$.auth.signInWithPopup();
+            
+    },
+        _signOut: function(e){
+  this.$$('login-fire').signOut();
+}
+    });
+  </script>
+</dom-module>
