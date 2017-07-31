@@ -1,65 +1,588 @@
-[debug] [2017-07-31T12:45:26.593Z] ----------------------------------------------------------------------
-[debug] [2017-07-31T12:45:26.608Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-07-31T12:45:26.608Z] CLI Version:  3.9.1
-[debug] [2017-07-31T12:45:26.608Z] Platform:     win32
-[debug] [2017-07-31T12:45:26.608Z] Node Version: v6.11.0
-[debug] [2017-07-31T12:45:26.608Z] Time:         Mon Jul 31 2017 08:45:26 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:26.608Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:16:55.676Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:16:55.692Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:16:55.692Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:16:55.692Z] Platform:     win32
+[debug] [2017-07-31T16:16:55.692Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:16:55.692Z] Time:         Mon Jul 31 2017 12:16:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:16:55.692Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-07-31T12:45:26.671Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-07-31T12:45:26.671Z] > authorizing via signed-in user
-[debug] [2017-07-31T12:45:26.687Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-07-31T12:45:26.687Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UKzY7dvd8SCzQBuBjXXRsDjK4tdAB1oibGRgkVUmi5w',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jul 31 2017 08:45:26 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:27.202Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-31T12:45:27.218Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
- Mon Jul 31 2017 08:45:27 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:28.109Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-31T12:45:28.109Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
- Mon Jul 31 2017 08:45:28 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:28.718Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:16:55.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:16:55.707Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:16:55.707Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:16:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:16:56.809Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:16:56.809Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:16:56 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:16:57.598Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
 [info] 
-[debug] [2017-07-31T12:45:28.733Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
- Mon Jul 31 2017 08:45:28 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:29.249Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-31T12:45:29.249Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
- Mon Jul 31 2017 08:45:29 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T12:45:29.910Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:16:57.598Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:16:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:16:58.024Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:16:58.024Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:16:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:16:58.551Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
 [info] Shutting down...
-[debug] [2017-07-31T14:39:41.451Z] ----------------------------------------------------------------------
-[debug] [2017-07-31T14:39:41.451Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2017-07-31T14:39:41.451Z] CLI Version:  3.9.1
-[debug] [2017-07-31T14:39:41.451Z] Platform:     win32
-[debug] [2017-07-31T14:39:41.451Z] Node Version: v6.11.0
-[debug] [2017-07-31T14:39:41.451Z] Time:         Mon Jul 31 2017 10:39:41 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T14:39:41.451Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:21:07.701Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:21:07.701Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:21:07.701Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:21:07.701Z] Platform:     win32
+[debug] [2017-07-31T16:21:07.701Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:21:07.701Z] Time:         Mon Jul 31 2017 12:21:07 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:21:07.701Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-07-31T14:39:41.467Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-07-31T14:39:41.467Z] > authorizing via signed-in user
-[debug] [2017-07-31T14:39:41.482Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
- Mon Jul 31 2017 10:39:41 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T14:39:42.334Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-31T14:39:42.334Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
- Mon Jul 31 2017 10:39:42 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T14:39:42.813Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:21:07.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:21:07.716Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:21:07.716Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:21:07 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:21:08.466Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:21:08.466Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:21:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:21:08.857Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
 [info] 
-[debug] [2017-07-31T14:39:42.813Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
- Mon Jul 31 2017 10:39:42 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T14:39:43.247Z] <<< HTTP RESPONSE 200
-[debug] [2017-07-31T14:39:43.247Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
- Mon Jul 31 2017 10:39:43 GMT-0400 (Eastern Daylight Time)
-[debug] [2017-07-31T14:39:43.684Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:21:08.873Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:21:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:21:09.281Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:21:09.281Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:21:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:21:09.702Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T16:23:44.766Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:23:44.782Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:23:44.782Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:23:44.782Z] Platform:     win32
+[debug] [2017-07-31T16:23:44.782Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:23:44.782Z] Time:         Mon Jul 31 2017 12:23:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:23:44.782Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:23:44.782Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:23:44.782Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:23:44.782Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:23:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:23:45.907Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:23:45.907Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:23:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:23:46.376Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:23:46.391Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:23:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:23:46.876Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:23:46.876Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:23:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:23:47.369Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T16:24:38.372Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:24:38.372Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:24:38.372Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:24:38.372Z] Platform:     win32
+[debug] [2017-07-31T16:24:38.372Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:24:38.372Z] Time:         Mon Jul 31 2017 12:24:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:24:38.372Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:24:38.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:24:38.388Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:24:38.388Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:24:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:24:39.150Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:24:39.153Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:24:39 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:24:39.811Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:24:39.827Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:24:39 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:24:40.264Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:24:40.264Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:24:40 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:24:40.686Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T16:28:19.265Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:28:19.265Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:28:19.265Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:28:19.265Z] Platform:     win32
+[debug] [2017-07-31T16:28:19.265Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:28:19.265Z] Time:         Mon Jul 31 2017 12:28:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:28:19.265Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:28:19.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:28:19.281Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:28:19.281Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:28:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:28:20.125Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:28:20.125Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:28:20 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:28:20.625Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:28:20.640Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:28:20 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:28:21.173Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:28:21.173Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:28:21 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:28:21.619Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T16:30:00.216Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:30:00.216Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:30:00.216Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:30:00.216Z] Platform:     win32
+[debug] [2017-07-31T16:30:00.216Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:30:00.216Z] Time:         Mon Jul 31 2017 12:30:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:00.216Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:30:00.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:30:00.231Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:30:00.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:30:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:01.372Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:30:01.372Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:30:01 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:02.202Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:30:02.218Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:30:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:02.734Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:30:02.735Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:30:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:03.245Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T16:30:59.676Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:30:59.676Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:30:59.676Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:30:59.676Z] Platform:     win32
+[debug] [2017-07-31T16:30:59.676Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:30:59.676Z] Time:         Mon Jul 31 2017 12:30:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:30:59.676Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:30:59.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:30:59.691Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:30:59.691Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:30:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:00.559Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:31:00.574Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:31:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:01.043Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:31:01.059Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:31:01 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:01.449Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:31:01.449Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:31:01 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:01.934Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T16:31:43.211Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:31:43.211Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T16:31:43.211Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:31:43.211Z] Platform:     win32
+[debug] [2017-07-31T16:31:43.211Z] Node Version: v6.11.0
+[debug] [2017-07-31T16:31:43.211Z] Time:         Mon Jul 31 2017 12:31:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:43.211Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:31:43.227Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:31:43.227Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:31:43.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:31:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:44.586Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:31:44.588Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 12:31:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:45.094Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T16:31:45.100Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 12:31:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:45.474Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:31:45.474Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 12:31:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T16:31:45.927Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T17:26:52.751Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T17:26:52.751Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T17:26:52.751Z] CLI Version:  3.9.1
+[debug] [2017-07-31T17:26:52.751Z] Platform:     win32
+[debug] [2017-07-31T17:26:52.751Z] Node Version: v6.11.0
+[debug] [2017-07-31T17:26:52.751Z] Time:         Mon Jul 31 2017 13:26:52 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:52.751Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T17:26:52.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T17:26:52.766Z] > authorizing via signed-in user
+[debug] [2017-07-31T17:26:52.766Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-31T17:26:52.766Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UKzY7dvd8SCzQBuBjXXRsDjK4tdAB1oibGRgkVUmi5w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 31 2017 13:26:52 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:53.063Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:26:53.079Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:26:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:54.094Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:26:54.094Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 13:26:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:54.586Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T17:26:54.602Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:26:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:55.127Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:26:55.127Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 13:26:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:26:55.986Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T17:28:08.786Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T17:28:08.786Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T17:28:08.786Z] CLI Version:  3.9.1
+[debug] [2017-07-31T17:28:08.786Z] Platform:     win32
+[debug] [2017-07-31T17:28:08.786Z] Node Version: v6.11.0
+[debug] [2017-07-31T17:28:08.786Z] Time:         Mon Jul 31 2017 13:28:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:28:08.786Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T17:28:08.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T17:28:08.801Z] > authorizing via signed-in user
+[debug] [2017-07-31T17:28:08.801Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:28:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:28:09.986Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:28:09.986Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 13:28:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:28:10.513Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T17:28:10.519Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:28:10 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:28:10.912Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:28:10.912Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 13:28:10 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:28:11.394Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T17:30:45.747Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T17:30:45.752Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T17:30:45.753Z] CLI Version:  3.9.1
+[debug] [2017-07-31T17:30:45.753Z] Platform:     win32
+[debug] [2017-07-31T17:30:45.753Z] Node Version: v6.11.0
+[debug] [2017-07-31T17:30:45.754Z] Time:         Mon Jul 31 2017 13:30:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:30:45.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T17:30:45.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T17:30:45.777Z] > authorizing via signed-in user
+[debug] [2017-07-31T17:30:45.781Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:30:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:30:46.302Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:30:46.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 13:30:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:30:46.693Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T17:30:46.693Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:30:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:30:47.219Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:30:47.219Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 13:30:47 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:30:47.673Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T17:31:35.044Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T17:31:35.044Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T17:31:35.044Z] CLI Version:  3.9.1
+[debug] [2017-07-31T17:31:35.044Z] Platform:     win32
+[debug] [2017-07-31T17:31:35.044Z] Node Version: v6.11.0
+[debug] [2017-07-31T17:31:35.044Z] Time:         Mon Jul 31 2017 13:31:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:31:35.044Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T17:31:35.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T17:31:35.059Z] > authorizing via signed-in user
+[debug] [2017-07-31T17:31:35.059Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:31:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:31:35.849Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:31:35.850Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 13:31:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:31:36.335Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T17:31:36.351Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 13:31:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:31:36.773Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T17:31:36.773Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 13:31:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T17:31:37.376Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T18:00:11.383Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:00:11.399Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:00:11.399Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:00:11.399Z] Platform:     win32
+[debug] [2017-07-31T18:00:11.399Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:00:11.399Z] Time:         Mon Jul 31 2017 14:00:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:00:11.399Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:00:11.414Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:00:11.414Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:00:11.414Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:00:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:00:12.445Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:00:12.445Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:00:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:00:12.945Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:00:12.961Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:00:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:00:13.399Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:00:13.399Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:00:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:00:13.930Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T18:02:12.921Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:02:12.921Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:02:12.921Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:02:12.921Z] Platform:     win32
+[debug] [2017-07-31T18:02:12.921Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:02:12.921Z] Time:         Mon Jul 31 2017 14:02:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:02:12.921Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:02:12.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:02:12.936Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:02:12.936Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:02:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:02:14.070Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:02:14.085Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:02:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:02:14.679Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:02:14.695Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:02:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:02:15.102Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:02:15.102Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:02:15 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:02:15.683Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T18:07:22.891Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:07:22.891Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:07:22.891Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:07:22.891Z] Platform:     win32
+[debug] [2017-07-31T18:07:22.891Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:07:22.891Z] Time:         Mon Jul 31 2017 14:07:22 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:07:22.891Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:07:22.907Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:07:22.907Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:07:22.907Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:07:22 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:07:24.204Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:07:24.204Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:07:24 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:07:24.641Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:07:24.641Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:07:24 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:07:25.079Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:07:25.079Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:07:25 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:07:25.516Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T18:08:04.615Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:08:04.617Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:08:04.618Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:08:04.618Z] Platform:     win32
+[debug] [2017-07-31T18:08:04.618Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:08:04.618Z] Time:         Mon Jul 31 2017 14:08:04 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:08:04.618Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:08:04.631Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:08:04.632Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:08:04.634Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:08:04 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:08:05.448Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:08:05.448Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:08:05 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:08:05.948Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:08:05.963Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:08:05 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:08:06.429Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:08:06.429Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:08:06 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:08:06.960Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T18:13:27.960Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:13:27.963Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:13:27.963Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:13:27.963Z] Platform:     win32
+[debug] [2017-07-31T18:13:27.963Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:13:27.964Z] Time:         Mon Jul 31 2017 14:13:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:27.964Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:13:27.980Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:13:27.981Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:13:27.983Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-31T18:13:27.983Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UKzY7dvd8SCzQBuBjXXRsDjK4tdAB1oibGRgkVUmi5w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 31 2017 14:13:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:28.484Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:13:28.500Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:13:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:30.812Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:13:30.812Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:13:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:32.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:13:32.043Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:13:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:32.486Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:13:32.486Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:13:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:13:32.892Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T18:19:53.240Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:19:53.255Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:19:53.255Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:19:53.255Z] Platform:     win32
+[debug] [2017-07-31T18:19:53.255Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:19:53.255Z] Time:         Mon Jul 31 2017 14:19:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:19:53.255Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:19:53.271Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:19:53.271Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:19:53.271Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:19:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:19:54.205Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:19:54.205Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:19:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:19:54.760Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:19:54.760Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:19:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:19:55.158Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:19:55.158Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:19:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:19:55.799Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-07-31T18:21:53.707Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:21:53.707Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:21:53.707Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:21:53.707Z] Platform:     win32
+[debug] [2017-07-31T18:21:53.707Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:21:53.707Z] Time:         Mon Jul 31 2017 14:21:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:21:53.707Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:21:53.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:21:53.722Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:21:53.722Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:21:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:21:54.582Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:21:54.582Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:21:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:21:55.113Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:21:55.113Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:21:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:21:55.722Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:21:55.722Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:21:55 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:21:56.191Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-07-31T18:23:16.965Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T18:23:16.967Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\syerra\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-31T18:23:16.968Z] CLI Version:  3.9.1
+[debug] [2017-07-31T18:23:16.968Z] Platform:     win32
+[debug] [2017-07-31T18:23:16.968Z] Node Version: v6.11.0
+[debug] [2017-07-31T18:23:16.968Z] Time:         Mon Jul 31 2017 14:23:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:23:16.968Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T18:23:16.983Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T18:23:16.984Z] > authorizing via signed-in user
+[debug] [2017-07-31T18:23:16.986Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:23:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:23:17.986Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:23:17.986Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-5f870/tokens  
+ Mon Jul 31 2017 14:23:17 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:23:19.479Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\syerra\Desktop\poly_sprint'...
+[info] 
+[debug] [2017-07-31T18:23:19.494Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-5f870  
+ Mon Jul 31 2017 14:23:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:23:19.885Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T18:23:19.885Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/342879007219/clients/_:getWebAppConfig  
+ Mon Jul 31 2017 14:23:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-07-31T18:23:20.314Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
