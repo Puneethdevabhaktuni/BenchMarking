@@ -17,6 +17,11 @@
         background-image: var(--container-background, "default.png");
         --container-background: url( 'images/doc.jpg');
       }
+
+      img{
+        padding-top: 3.5cm;
+        padding-left:13.5cm
+      }
 </style>
 
 <iron-ajax auto url="/appconfig.json" handle-as="json" last-response="{{appconfig}}"></iron-ajax>
@@ -27,8 +32,9 @@
           auth-domain="[[appconfig.auth-domain]]"
           database-url="[[appconfig.database-url]]">
     </firebase-app>
-        <img src="images/logo.png" style="padding-top: 5cm;padding-left:13.5cm " />
+        <img src="images/logo.png"/>
     <login-fire id="login" mini horizontal email-password facebook anonymous google app-name="miniHorizontalWideDemo" user="{{user}}" signed-in="{{signedIn}}"></login-fire>
+    
       
       <firebase-auth
         id="auth"
