@@ -688,3 +688,226 @@
 [info] +  hosting: Local server: http://localhost:5000
 
 [info] Shutting down...
+[debug] [2017-08-01T16:45:32.107Z] ----------------------------------------------------------------------
+[debug] [2017-08-01T16:45:32.123Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-01T16:45:32.123Z] CLI Version:  3.9.1
+[debug] [2017-08-01T16:45:32.123Z] Platform:     win32
+[debug] [2017-08-01T16:45:32.123Z] Node Version: v6.11.0
+[debug] [2017-08-01T16:45:32.123Z] Time:         Tue Aug 01 2017 12:45:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:45:32.123Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-01T16:45:32.147Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-01T16:45:32.147Z] > authorizing via signed-in user
+[debug] [2017-08-01T16:45:32.150Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 12:45:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:45:33.128Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T16:45:33.128Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Tue Aug 01 2017 12:45:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:45:33.723Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-01T16:45:33.739Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 12:45:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:45:34.122Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T16:45:34.122Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Tue Aug 01 2017 12:45:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:45:34.563Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-08-01T16:51:17.091Z] ----------------------------------------------------------------------
+[debug] [2017-08-01T16:51:17.091Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-01T16:51:17.091Z] CLI Version:  3.9.1
+[debug] [2017-08-01T16:51:17.091Z] Platform:     win32
+[debug] [2017-08-01T16:51:17.091Z] Node Version: v6.11.0
+[debug] [2017-08-01T16:51:17.091Z] Time:         Tue Aug 01 2017 12:51:17 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:51:17.091Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-01T16:51:17.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-01T16:51:17.107Z] > authorizing via signed-in user
+[debug] [2017-08-01T16:51:17.121Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 12:51:17 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:51:18.051Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T16:51:18.051Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Tue Aug 01 2017 12:51:18 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:51:19.130Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-01T16:51:19.161Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 12:51:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:51:19.541Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T16:51:19.541Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Tue Aug 01 2017 12:51:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T16:51:19.993Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-01T19:26:06.482Z] ----------------------------------------------------------------------
+[debug] [2017-08-01T19:26:06.484Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-01T19:26:06.485Z] CLI Version:  3.9.1
+[debug] [2017-08-01T19:26:06.485Z] Platform:     win32
+[debug] [2017-08-01T19:26:06.485Z] Node Version: v6.11.0
+[debug] [2017-08-01T19:26:06.486Z] Time:         Tue Aug 01 2017 15:26:06 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:06.486Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-01T19:26:06.506Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-01T19:26:06.507Z] > authorizing via signed-in user
+[debug] [2017-08-01T19:26:06.509Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-01T19:26:06.510Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UR2fGCY4EAZXoVipLyqH9Cy6GWBgRHJPhMhQTZfMrVE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 01 2017 15:26:06 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:06.814Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T19:26:06.827Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 15:26:06 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:07.566Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T19:26:07.567Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Tue Aug 01 2017 15:26:07 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:08.201Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-01T19:26:08.204Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 15:26:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:08.678Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T19:26:08.680Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Tue Aug 01 2017 15:26:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:26:09.189Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-08-01T19:29:41.168Z] ----------------------------------------------------------------------
+[debug] [2017-08-01T19:29:41.171Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-01T19:29:41.171Z] CLI Version:  3.9.1
+[debug] [2017-08-01T19:29:41.171Z] Platform:     win32
+[debug] [2017-08-01T19:29:41.171Z] Node Version: v6.11.0
+[debug] [2017-08-01T19:29:41.172Z] Time:         Tue Aug 01 2017 15:29:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:29:41.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-01T19:29:41.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-01T19:29:41.192Z] > authorizing via signed-in user
+[debug] [2017-08-01T19:29:41.194Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 15:29:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:29:41.816Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T19:29:41.817Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Tue Aug 01 2017 15:29:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:29:42.340Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-01T19:29:42.347Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Tue Aug 01 2017 15:29:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:29:43.075Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-01T19:29:43.076Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Tue Aug 01 2017 15:29:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-01T19:29:43.471Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-02T15:45:38.603Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T15:45:38.603Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-02T15:45:38.603Z] CLI Version:  3.9.1
+[debug] [2017-08-02T15:45:38.603Z] Platform:     win32
+[debug] [2017-08-02T15:45:38.603Z] Node Version: v6.11.0
+[debug] [2017-08-02T15:45:38.681Z] Time:         Wed Aug 02 2017 11:45:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:38.681Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-02T15:45:38.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-02T15:45:38.712Z] > authorizing via signed-in user
+[debug] [2017-08-02T15:45:38.712Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-02T15:45:38.712Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UR2fGCY4EAZXoVipLyqH9Cy6GWBgRHJPhMhQTZfMrVE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 02 2017 11:45:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:39.015Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T15:45:39.046Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 11:45:39 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:39.948Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T15:45:39.948Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Wed Aug 02 2017 11:45:39 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:40.382Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-02T15:45:40.409Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 11:45:40 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:41.110Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T15:45:41.110Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Wed Aug 02 2017 11:45:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T15:45:41.734Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-02T18:11:48.883Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T18:11:48.883Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-02T18:11:48.883Z] CLI Version:  3.9.1
+[debug] [2017-08-02T18:11:48.883Z] Platform:     win32
+[debug] [2017-08-02T18:11:48.883Z] Node Version: v6.11.0
+[debug] [2017-08-02T18:11:48.883Z] Time:         Wed Aug 02 2017 14:11:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:48.883Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-02T18:11:48.899Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-02T18:11:48.899Z] > authorizing via signed-in user
+[debug] [2017-08-02T18:11:48.914Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-02T18:11:48.914Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/UR2fGCY4EAZXoVipLyqH9Cy6GWBgRHJPhMhQTZfMrVE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 02 2017 14:11:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:49.199Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T18:11:49.234Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 14:11:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:50.816Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T18:11:50.816Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Wed Aug 02 2017 14:11:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:51.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-02T18:11:51.534Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 14:11:51 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:52.249Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T18:11:52.249Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Wed Aug 02 2017 14:11:52 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:11:52.904Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-08-02T18:37:29.050Z] ----------------------------------------------------------------------
+[debug] [2017-08-02T18:37:29.055Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\pdevab\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-02T18:37:29.057Z] CLI Version:  3.9.1
+[debug] [2017-08-02T18:37:29.057Z] Platform:     win32
+[debug] [2017-08-02T18:37:29.057Z] Node Version: v6.11.0
+[debug] [2017-08-02T18:37:29.059Z] Time:         Wed Aug 02 2017 14:37:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:37:29.059Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-02T18:37:29.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-02T18:37:29.084Z] > authorizing via signed-in user
+[debug] [2017-08-02T18:37:29.092Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 14:37:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:37:29.934Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T18:37:29.934Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/benchmarking-a0e55/tokens  
+ Wed Aug 02 2017 14:37:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:37:30.372Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\pdevab\Polymer'...
+[info] 
+[debug] [2017-08-02T18:37:30.393Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/benchmarking-a0e55  
+ Wed Aug 02 2017 14:37:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:37:30.851Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-02T18:37:30.852Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/37091618514/clients/_:getWebAppConfig  
+ Wed Aug 02 2017 14:37:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-08-02T18:37:31.281Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
